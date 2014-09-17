@@ -3,7 +3,7 @@
   exec:     curl hamburg.freifunk.net 2> /dev/null | grep -q "hamburg.freifunk.net | Initiative für freie Funknetzwerke in Hamburg"
 - host:     srv01
   service:  formular.hamburg.freifunk.net
-  exec:     curl formular.freifunk.net 2> /dev/null | grep -q "Knotenverwaltung"
+  exec:     curl formular.hamburg.freifunk.net 2> /dev/null | grep -q "Knotenverwaltung"
 - host:     srv01
   service:  graph.hamburg.freifunk.net
   exec:     curl http://graph.hamburg.freifunk.net/graph_compiled.js 2> /dev/null > /dev/null
