@@ -1,14 +1,14 @@
-- host:     srv01
-  service:  hamburg.freifunk.net
+- host:         srv01
+  service:      hamburg.freifunk.net
   http:
-    url:    http://hamburg.freifunk.net/
+    url:        http://hamburg.freifunk.net/
     contains:   "hamburg.freifunk.net | Initiative für freie Funknetzwerke in Hamburg"
-- host:     srv01
-  service:  formular.hamburg.freifunk.net
+- host:         srv01
+  service:      formular.hamburg.freifunk.net
   http:
-    url:    http://formular.hamburg.freifunk.net/
+    url:        http://formular.hamburg.freifunk.net/
     contains:   "Knotenverwaltung"
-- host:     srv01
-  service:  graph.hamburg.freifunk.net
+- host:         srv01
+  service:      graph.hamburg.freifunk.net
   http:
-    url:    http://graph.hamburg.freifunk.net/graph_compiled.js
+    url:        http://graph.hamburg.freifunk.net/graph_compiled.js
